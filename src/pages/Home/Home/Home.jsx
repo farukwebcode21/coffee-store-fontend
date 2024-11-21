@@ -1,7 +1,9 @@
+import HeroSection from "../../../components/Header";
+
 const Home = () => {
   return (
-    <div>
-      <h1>Home Layout</h1>
+    <div className="w-[1920] h-[800] m-auto">
+      <HeroSection />
     </div>
   );
 };
