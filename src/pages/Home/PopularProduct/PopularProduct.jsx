@@ -7,6 +7,8 @@ import cup_6 from "../../../assets/images/6.png";
 import { AiFillDelete } from "react-icons/ai";
 import { MdOutlineEdit } from "react-icons/md";
 import { IoEyeOutline } from "react-icons/io5";
+import { FaCoffee } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const PopularProduct = () => {
   return (
@@ -15,9 +17,14 @@ const PopularProduct = () => {
         <div className="text-center space-y-3 mb-6">
           <span>--- Slip & Savor ---</span>
           <h2 className="text-2xl font-bold">Popular Product</h2>
-          <button className="w-[130px] h-[48px] border-2 border-black bg-yellow-600 font-bold rounded-md text-white">
-            Learn More
-          </button>
+          <div className="flex items-center justify-center">
+            <Link to="addcoffee">
+              <button className="w-[130px] flex items-center justify-center  h-[48px] border-2 border-black bg-yellow-600 font-bold rounded-md text-white">
+                Add Coffee
+                <FaCoffee className="ml-2" />
+              </button>
+            </Link>
+          </div>
         </div>
         <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-5">
           <div className="flex justify-evenly items-center p-10 rounded-md   bg-[#F5F4F1]">
