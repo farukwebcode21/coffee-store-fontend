@@ -7,7 +7,7 @@ const BrandIcon = () => {
     <div className=" bg-[#ECEAE3]">
       <div className="flex lg:flex-nowrap md:flex-nowrap sm:flex-wrap  justify-evenly items-center py-10 px-16 gap-6">
         <div className="flex flex-col items-start space-y-4">
-          <img src={coffie} alt="coffie icon" />
+          <img width={"60"} src={coffie} alt="coffie icon" />
           <div className="space-y-3">
             <h3 className="font-bold text-2xl">Awesome Aroma</h3>
             <p>
@@ -17,7 +17,7 @@ const BrandIcon = () => {
         </div>
 
         <div className="flex flex-col items-start space-y-4">
-          <img src={high} alt="high icon" />
+          <img width={"60"} src={high} alt="high icon" />
           <div className="space-y-3">
             <h3 className="font-bold text-2xl">High Quality</h3>
             <p>
@@ -27,7 +27,7 @@ const BrandIcon = () => {
         </div>
 
         <div className="flex flex-col items-start space-y-4">
-          <img src={cors} alt="cors icon" />
+          <img width={"60"} src={cors} alt="high icon" />
           <div className="space-y-3">
             <h3 className="font-bold text-2xl">Pure Grades</h3>
             <p>
@@ -38,7 +38,7 @@ const BrandIcon = () => {
         </div>
 
         <div className="flex flex-col items-start space-y-4">
-          <img src={iceCream} alt="iceCream icon" />
+          <img width={"60"} src={iceCream} alt="high icon" />
           <div className="space-y-3">
             <h3 className="font-bold text-2xl">Proper Roasting</h3>
             <p>

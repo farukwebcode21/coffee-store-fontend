@@ -5,6 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         hero: "url('./src/assets/images/Rectangle 2.png')",
+        popularItem: "url('./src/assets/images/more/1.png')",
       },
     },
     container: {
