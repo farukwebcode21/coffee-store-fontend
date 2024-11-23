@@ -4,6 +4,10 @@ import cup_3 from "../../../assets/images/3.png";
 import cup_4 from "../../../assets/images/4.png";
 import cup_5 from "../../../assets/images/5.png";
 import cup_6 from "../../../assets/images/6.png";
+import { AiFillDelete } from "react-icons/ai";
+import { MdOutlineEdit } from "react-icons/md";
+import { IoEyeOutline } from "react-icons/io5";
+
 const PopularProduct = () => {
   return (
     <div className="bg-popularItem bg-cover container mt-10 p-10">
@@ -16,88 +20,184 @@ const PopularProduct = () => {
           </button>
         </div>
         <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-5">
-          <div className="flex justify-start items-center p-7 bg-[#F5F4F1]">
-            <img src={cup_1} alt="coffiemug" />
+          <div className="flex justify-evenly items-center p-10 rounded-md   bg-[#F5F4F1]">
+            <img src={cup_1} className="w-28" alt="coffiemug" />
             <div className="space-y-5">
-              <h4>
-                Name:<span>Americano Coffee</span>
-              </h4>
-              <h4>
-                Chef:<span>Mr Matin Paul</span>
-              </h4>
-              <h4>
-                Price:<span>890 Taka</span>
-              </h4>
+              <div className="flex items-center justify-between gap-10">
+                <h4>
+                  Name:<span className="text-color">Americano Coffee</span>
+                </h4>
+                <div className="bg-orange-600 w-10 h-10 flex items-center justify-center">
+                  <IoEyeOutline className=" text-white " />
+                </div>
+              </div>
+              <div className="flex justify-between items-center">
+                <h4>
+                  Chef:<span className="text-color">Mr Matin Paul</span>
+                </h4>
+                <div className="flex items-center justify-center w-10 h-10 bg-black">
+                  <MdOutlineEdit className=" text-white" />
+                </div>
+              </div>
+
+              <div className="flex justify-between items-center">
+                <h4>
+                  Price:<span className="text-color">890 Taka</span>
+                </h4>
+                <div className="flex items-center justify-center bg-orange-700 h-10 w-10">
+                  <AiFillDelete className="text-white" />
+                </div>
+              </div>
             </div>
           </div>
-          <div className="flex justify-start items-center p-7 bg-[#F5F4F1]">
-            <img src={cup_2} alt="coffiemug" />
+          <div className="flex justify-evenly items-center p-10 rounded-md   bg-[#F5F4F1]">
+            <img src={cup_2} className="w-28" alt="coffiemug" />
             <div className="space-y-5">
-              <h4>
-                Name:<span>Americano Coffee</span>
-              </h4>
-              <h4>
-                Chef:<span>Mr Matin Paul</span>
-              </h4>
-              <h4>
-                Price:<span>890 Taka</span>
-              </h4>
+              <div className="flex items-center justify-between gap-10">
+                <h4>
+                  Name:<span className="text-color">Americano Coffee</span>
+                </h4>
+                <div className="bg-orange-600 w-10 h-10 flex items-center justify-center">
+                  <IoEyeOutline className=" text-white " />
+                </div>
+              </div>
+              <div className="flex justify-between items-center">
+                <h4>
+                  Chef:<span className="text-color">Mr Matin Paul</span>
+                </h4>
+                <div className="flex items-center justify-center w-10 h-10 bg-black">
+                  <MdOutlineEdit className=" text-white" />
+                </div>
+              </div>
+
+              <div className="flex justify-between items-center">
+                <h4>
+                  Price:<span className="text-color">890 Taka</span>
+                </h4>
+                <div className="flex items-center justify-center bg-orange-700 h-10 w-10">
+                  <AiFillDelete className="text-white" />
+                </div>
+              </div>
             </div>
           </div>
-          <div className="flex items-center justify-start p-7 bg-[#F5F4F1]">
-            <img src={cup_3} alt="coffiemug" />
+          <div className="flex justify-evenly items-center p-10 rounded-md   bg-[#F5F4F1]">
+            <img src={cup_3} className="w-24" alt="coffiemug" />
             <div className="space-y-5">
-              <h4>
-                Name:<span>Americano Coffee</span>
-              </h4>
-              <h4>
-                Chef:<span>Mr Matin Paul</span>
-              </h4>
-              <h4>
-                Price:<span>890 Taka</span>
-              </h4>
+              <div className="flex items-center justify-between gap-10">
+                <h4>
+                  Name:<span className="text-color">Americano Coffee</span>
+                </h4>
+                <div className="bg-orange-600 w-10 h-10 flex items-center justify-center">
+                  <IoEyeOutline className=" text-white " />
+                </div>
+              </div>
+              <div className="flex justify-between items-center">
+                <h4>
+                  Chef:<span className="text-color">Mr Matin Paul</span>
+                </h4>
+                <div className="flex items-center justify-center w-10 h-10 bg-black">
+                  <MdOutlineEdit className=" text-white" />
+                </div>
+              </div>
+
+              <div className="flex justify-between items-center">
+                <h4>
+                  Price:<span className="text-color">890 Taka</span>
+                </h4>
+                <div className="flex items-center justify-center bg-orange-700 h-10 w-10">
+                  <AiFillDelete className="text-white" />
+                </div>
+              </div>
             </div>
           </div>
-          <div className="flex items-center justify-start p-7 bg-[#F5F4F1]">
-            <img src={cup_4} alt="coffiemug" />
+          <div className="flex justify-evenly items-center p-10 rounded-md   bg-[#F5F4F1]">
+            <img src={cup_4} className="w-24" alt="coffiemug" />
             <div className="space-y-5">
-              <h4>
-                Name:<span>Americano Coffee</span>
-              </h4>
-              <h4>
-                Chef:<span>Mr Matin Paul</span>
-              </h4>
-              <h4>
-                Price:<span>890 Taka</span>
-              </h4>
+              <div className="flex items-center justify-between gap-10">
+                <h4>
+                  Name:<span className="text-color">Americano Coffee</span>
+                </h4>
+                <div className="bg-orange-600 w-10 h-10 flex items-center justify-center">
+                  <IoEyeOutline className=" text-white " />
+                </div>
+              </div>
+              <div className="flex justify-between items-center">
+                <h4>
+                  Chef:<span className="text-color">Mr Matin Paul</span>
+                </h4>
+                <div className="flex items-center justify-center w-10 h-10 bg-black">
+                  <MdOutlineEdit className=" text-white" />
+                </div>
+              </div>
+
+              <div className="flex justify-between items-center">
+                <h4>
+                  Price:<span className="text-color">890 Taka</span>
+                </h4>
+                <div className="flex items-center justify-center bg-orange-700 h-10 w-10">
+                  <AiFillDelete className="text-white" />
+                </div>
+              </div>
             </div>
           </div>
-          <div className="flex items-center justify-start p-7 bg-[#F5F4F1]">
-            <img src={cup_5} alt="coffiemug" />
+          <div className="flex justify-evenly items-center p-10 rounded-md  bg-[#F5F4F1]">
+            <img src={cup_5} className="w-24" alt="coffiemug" />
             <div className="space-y-5">
-              <h4>
-                Name:<span>Americano Coffee</span>
-              </h4>
-              <h4>
-                Chef:<span>Mr Matin Paul</span>
-              </h4>
-              <h4>
-                Price:<span>890 Taka</span>
-              </h4>
+              <div className="flex items-center justify-between gap-10">
+                <h4>
+                  Name:<span className="text-color">Americano Coffee</span>
+                </h4>
+                <div className="bg-orange-600 w-10 h-10 flex items-center justify-center">
+                  <IoEyeOutline className=" text-white " />
+                </div>
+              </div>
+              <div className="flex justify-between items-center">
+                <h4>
+                  Chef:<span className="text-color">Mr Matin Paul</span>
+                </h4>
+                <div className="flex items-center justify-center w-10 h-10 bg-black">
+                  <MdOutlineEdit className=" text-white" />
+                </div>
+              </div>
+
+              <div className="flex justify-between items-center">
+                <h4>
+                  Price:<span className="text-color">890 Taka</span>
+                </h4>
+                <div className="flex items-center justify-center bg-orange-700 h-10 w-10">
+                  <AiFillDelete className="text-white" />
+                </div>
+              </div>
             </div>
           </div>
-          <div className="flex items-center justify-start p-7 bg-[#F5F4F1]">
-            <img src={cup_6} alt="coffiemug" />
+          <div className="flex justify-evenly items-center p-10 rounded-md   bg-[#F5F4F1]">
+            <img src={cup_6} className="w-24 h-32" alt="coffiemug" />
             <div className="space-y-5">
-              <h4>
-                Name:<span>Americano Coffee</span> Delete
-              </h4>
-              <h4>
-                Chef:<span>Mr Matin Paul</span>Update
-              </h4>
-              <h4>
-                Price:<span>890 Taka</span>
-              </h4>
+              <div className="flex items-center justify-between gap-10">
+                <h4>
+                  Name:<span className="text-color">Americano Coffee</span>
+                </h4>
+                <div className="bg-orange-600 w-10 h-10 flex items-center justify-center">
+                  <IoEyeOutline className=" text-white " />
+                </div>
+              </div>
+              <div className="flex justify-between items-center">
+                <h4>
+                  Chef:<span className="text-color">Mr Matin Paul</span>
+                </h4>
+                <div className="flex items-center justify-center w-10 h-10 bg-black">
+                  <MdOutlineEdit className=" text-white" />
+                </div>
+              </div>
+
+              <div className="flex justify-between items-center">
+                <h4>
+                  Price:<span className="text-color">890 Taka</span>
+                </h4>
+                <div className="flex items-center justify-center bg-orange-700 h-10 w-10">
+                  <AiFillDelete className="text-white" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
