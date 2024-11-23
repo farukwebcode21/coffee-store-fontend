@@ -7,6 +7,7 @@ const Navbar = () => {
       className="h-[100px] relative flex items-center justify-center"
       style={{
         backgroundImage: `url(${header_bg})`,
+        backgroundSize: "cover",
       }}
     >
       <img className="w-16 h-20" src={logo} alt="logo" />
