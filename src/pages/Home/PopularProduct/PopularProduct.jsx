@@ -8,7 +8,7 @@ const PopularProduct = () => {
     fetch("http://localhost:3000/coffee")
       .then((res) => res.json())
       .then((data) => setCoffiee(data));
-  }, []);
+  }, [coffiee]);
   return (
     <div>
       <SubTile
@@ -18,7 +18,7 @@ const PopularProduct = () => {
       />
       <div className="bg-popularItem bg-cover grid grid-cols-2 gap-5 container mt-10 p-10">
         {coffiee.map((coffie) => (
-          <PopularCard key={coffie.id} coffie={coffie} />
+          <PopularCard key={coffie._id} coffie={coffie} />
         ))}
       </div>
     </div>

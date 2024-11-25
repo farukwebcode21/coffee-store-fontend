@@ -10,6 +10,7 @@ const AddCoffee = () => {
     const quantity = form.quantity.value.trim();
     const supplier = form.supplier.value.trim();
     const taste = form.taste.value.trim();
+    const category = form.category.value.trim();
     const chef = form.chef.value.trim();
     const price = form.price.value.trim();
     const detail = form.details.value.trim();
@@ -19,6 +20,7 @@ const AddCoffee = () => {
       quantity,
       supplier,
       taste,
+      category,
       detail,
       price,
       chef,
