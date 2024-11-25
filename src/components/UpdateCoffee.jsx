@@ -1,7 +1,10 @@
 import { FaLongArrowAltLeft } from "react-icons/fa";
-import { Link, useLoaderData } from "react-router-dom";
+import { Link, useLoaderData, useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
 
 const UpdateCoffee = () => {
+  const navigate = useNavigate();
+
   const {
     _id,
     price,
@@ -39,7 +42,26 @@ const UpdateCoffee = () => {
       category,
     };
     console.log(updateCoffee);
-    e.target.reset();
+    fetch(`http://localhost:3000/coffee/${_id}`, {
+      method: "PUT",
+      headers: {
+        "content-type": "application/json",
+      },
+      body: JSON.stringify(updateCoffee),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+        if (data.modifiedCount > 0) {
+          Swal.fire({
+            title: "Success !",
+            text: "Your coffee has been updated successfully",
+            icon: "success",
+            confirmButtonText: "OK",
+          });
+          navigate("/");
+        }
+      });
   };
   return (
     <div>
