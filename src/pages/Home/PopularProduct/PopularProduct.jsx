@@ -16,7 +16,7 @@ const PopularProduct = () => {
         title={"Popular Product"}
         btnname={" Add Coffee"}
       />
-      <div className="bg-popularItem bg-cover grid grid-cols-2 gap-5 container mt-10 p-10">
+      <div className="container grid grid-cols-2 gap-5 p-10 mt-10 bg-cover bg-popularItem">
         {coffiee.map((coffie) => (
           <PopularCard key={coffie._id} coffie={coffie} />
         ))}
@@ -35,24 +35,24 @@ export default PopularProduct;
                 <h4>
                   Name:<span className="text-color">Americano Coffee</span>
                 </h4>
-                <div className="bg-orange-600 w-10 h-10 flex items-center justify-center">
-                  <IoEyeOutline className=" text-white " />
+                <div className="flex items-center justify-center w-10 h-10 bg-orange-600">
+                  <IoEyeOutline className="text-white " />
                 </div>
               </div>
-              <div className="flex justify-between items-center">
+              <div className="flex items-center justify-between">
                 <h4>
                   Chef:<span className="text-color">Mr Matin Paul</span>
                 </h4>
                 <div className="flex items-center justify-center w-10 h-10 bg-black">
-                  <MdOutlineEdit className=" text-white" />
+                  <MdOutlineEdit className="text-white " />
                 </div>
               </div>
 
-              <div className="flex justify-between items-center">
+              <div className="flex items-center justify-between">
                 <h4>
                   Price:<span className="text-color">890 Taka</span>
                 </h4>
-                <div className="flex items-center justify-center bg-orange-700 h-10 w-10">
+                <div className="flex items-center justify-center w-10 h-10 bg-orange-700">
                   <AiFillDelete className="text-white" />
                 </div>
               </div>
@@ -65,24 +65,24 @@ export default PopularProduct;
                 <h4>
                   Name:<span className="text-color">Americano Coffee</span>
                 </h4>
-                <div className="bg-orange-600 w-10 h-10 flex items-center justify-center">
-                  <IoEyeOutline className=" text-white " />
+                <div className="flex items-center justify-center w-10 h-10 bg-orange-600">
+                  <IoEyeOutline className="text-white " />
                 </div>
               </div>
-              <div className="flex justify-between items-center">
+              <div className="flex items-center justify-between">
                 <h4>
                   Chef:<span className="text-color">Mr Matin Paul</span>
                 </h4>
                 <div className="flex items-center justify-center w-10 h-10 bg-black">
-                  <MdOutlineEdit className=" text-white" />
+                  <MdOutlineEdit className="text-white " />
                 </div>
               </div>
 
-              <div className="flex justify-between items-center">
+              <div className="flex items-center justify-between">
                 <h4>
                   Price:<span className="text-color">890 Taka</span>
                 </h4>
-                <div className="flex items-center justify-center bg-orange-700 h-10 w-10">
+                <div className="flex items-center justify-center w-10 h-10 bg-orange-700">
                   <AiFillDelete className="text-white" />
                 </div>
               </div>
@@ -95,24 +95,24 @@ export default PopularProduct;
                 <h4>
                   Name:<span className="text-color">Americano Coffee</span>
                 </h4>
-                <div className="bg-orange-600 w-10 h-10 flex items-center justify-center">
-                  <IoEyeOutline className=" text-white " />
+                <div className="flex items-center justify-center w-10 h-10 bg-orange-600">
+                  <IoEyeOutline className="text-white " />
                 </div>
               </div>
-              <div className="flex justify-between items-center">
+              <div className="flex items-center justify-between">
                 <h4>
                   Chef:<span className="text-color">Mr Matin Paul</span>
                 </h4>
                 <div className="flex items-center justify-center w-10 h-10 bg-black">
-                  <MdOutlineEdit className=" text-white" />
+                  <MdOutlineEdit className="text-white " />
                 </div>
               </div>
 
-              <div className="flex justify-between items-center">
+              <div className="flex items-center justify-between">
                 <h4>
                   Price:<span className="text-color">890 Taka</span>
                 </h4>
-                <div className="flex items-center justify-center bg-orange-700 h-10 w-10">
+                <div className="flex items-center justify-center w-10 h-10 bg-orange-700">
                   <AiFillDelete className="text-white" />
                 </div>
               </div>
@@ -125,24 +125,24 @@ export default PopularProduct;
                 <h4>
                   Name:<span className="text-color">Americano Coffee</span>
                 </h4>
-                <div className="bg-orange-600 w-10 h-10 flex items-center justify-center">
-                  <IoEyeOutline className=" text-white " />
+                <div className="flex items-center justify-center w-10 h-10 bg-orange-600">
+                  <IoEyeOutline className="text-white " />
                 </div>
               </div>
-              <div className="flex justify-between items-center">
+              <div className="flex items-center justify-between">
                 <h4>
                   Chef:<span className="text-color">Mr Matin Paul</span>
                 </h4>
                 <div className="flex items-center justify-center w-10 h-10 bg-black">
-                  <MdOutlineEdit className=" text-white" />
+                  <MdOutlineEdit className="text-white " />
                 </div>
               </div>
 
-              <div className="flex justify-between items-center">
+              <div className="flex items-center justify-between">
                 <h4>
                   Price:<span className="text-color">890 Taka</span>
                 </h4>
-                <div className="flex items-center justify-center bg-orange-700 h-10 w-10">
+                <div className="flex items-center justify-center w-10 h-10 bg-orange-700">
                   <AiFillDelete className="text-white" />
                 </div>
               </div>
@@ -155,24 +155,24 @@ export default PopularProduct;
                 <h4>
                   Name:<span className="text-color">Americano Coffee</span>
                 </h4>
-                <div className="bg-orange-600 w-10 h-10 flex items-center justify-center">
-                  <IoEyeOutline className=" text-white " />
+                <div className="flex items-center justify-center w-10 h-10 bg-orange-600">
+                  <IoEyeOutline className="text-white " />
                 </div>
               </div>
-              <div className="flex justify-between items-center">
+              <div className="flex items-center justify-between">
                 <h4>
                   Chef:<span className="text-color">Mr Matin Paul</span>
                 </h4>
                 <div className="flex items-center justify-center w-10 h-10 bg-black">
-                  <MdOutlineEdit className=" text-white" />
+                  <MdOutlineEdit className="text-white " />
                 </div>
               </div>
 
-              <div className="flex justify-between items-center">
+              <div className="flex items-center justify-between">
                 <h4>
                   Price:<span className="text-color">890 Taka</span>
                 </h4>
-                <div className="flex items-center justify-center bg-orange-700 h-10 w-10">
+                <div className="flex items-center justify-center w-10 h-10 bg-orange-700">
                   <AiFillDelete className="text-white" />
                 </div>
               </div>
